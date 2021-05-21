@@ -11,6 +11,8 @@ class TranslationManagerServiceProvider extends ServiceProvider
         if ($this->app->runningInConsole()) {
             $this->commands([
                 Commands\TranslationAddCommand::class,
+                Commands\TranslationScanCommand::class,
+                Commands\TranslationScanViewsCommand::class,
             ]);
         }
     }
