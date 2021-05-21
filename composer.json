@@ -25,7 +25,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Justijndepover\\LaravelTranslationManager\\LaravelTranslationManagerServiceProvider"
+                "Justijndepover\\LaravelTranslationManager\\TranslationManagerServiceProvider"
             ]
         }
     },
