@@ -1,10 +1,10 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Justijndepover\LaravelTranslationManager\Commands;
 
 use Illuminate\Console\Command;
 
-class TranslationAddCommand extends Command
+class TranslationScanCommand extends Command
 {
     protected $signature = 'translation:scan';
     protected $description = 'Search for translations that are missing in some locales';
